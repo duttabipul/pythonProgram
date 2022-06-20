@@ -1,0 +1,25 @@
+1. Get-ExecutionPolicy
+
+2. Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force
+
+3. Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force
+-------------------------------------------------------------------------------
+4. .\djangoEnv\Scripts\activate
+
+5.  cd .\djangoApp	cd .. (for go back)	(For moving one folder to another)
+
+6. python .\manage.py runserver		(Coding for run the server)
+
+7. mkdir crudApp 	(for making a new folder)
+
+8. django-admin startproject employeeManagementApp	(cd .\employeeManagementApp)
+
+9. cd .\employeeManagementApp
+
+10. python .\manage.py startapp employeeApp
+
+11. python .\manage.py makemigrations
+
+12. sqlite db table (need to open and connect to the db_table file)
+
+13. python .\manage.py migrate
