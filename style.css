@@ -99,7 +99,8 @@ ul li a:hover{
     max-height: 100px;
     max-width: 60px;
     padding: 0px;
-    position: absolute;
+    position: fixed;
+    
 }
 .content{
     width: 600px;
